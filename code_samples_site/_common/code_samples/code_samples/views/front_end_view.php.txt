@@ -1,0 +1,113 @@
+<?php
+ /**
+ * @author Tamara Jean (TJ) Fredrikson http://www.tfredrikson.com
+ * @copyright Copyright (C) 2013 TJ Fredrikson
+ * @license http://creativecommons.org/licenses/by-sa/3.0/ Attribution-ShareAlike 3.0
+ */ 
+
+/**
+ * This is the simple front end view for the homepage
+ * 
+ * It presents the HTML5 and CSS for the homepage
+ */ 
+
+$debug=0;
+
+?>
+
+                    <!-- BEGIN HERO UNIT -->
+                    <div class="hero-unit well" style="text-align: center;">
+                        <h1>code tests</h1>
+                        <h3>by tamara jean (tj) fredrikson</h3>
+                        <p>this work is licensed under a
+                            <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons 
+                        	Attribution-ShareAlike 3.0 Unported License</a>
+                            <br />
+                            <small>&copy; 2013 TJ Fredrikson</small>
+                        </p>
+                        <div>
+                            <a id="common_license" target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/" role="button" class="btn btn-success btn-large">view license &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- END HERO UNIT -->
+
+
+
+
+
+                    <!-- BEGIN CONTENT -->
+                    <ul class="thumbnails">
+                        <li class="span4">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>ajax print</h3>
+                                    <p>this simple coding test uses Ajax to read in a JSON string and produce output as if you had coded print_r() on an array - read the requirements for more detail</p>
+                                    <p>
+                                        <a class="btn btn-inverse" href="#">install &raquo;</a>
+                                        <a class="btn btn-success" href="_demos/ajax_print/">demo &raquo;</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="span4" style="">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>javascript web service</h3>
+                                    <p>this server-side is a simple REST-API web service that converts a text string to remove extra spaces between sentences</p>
+                                    <p>
+                                        <a class="btn btn-inverse disabled" href="#">install &raquo;</a>
+                                        <a class="btn btn-success disabled" href="#">test online &raquo;</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="span4" style="">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>stanford epgy</h3>
+                                    <p>adding students and teachers to a database
+                                        <strong>(coming soon)</strong>
+                                    </p>
+                                    <p>
+                                        <a class="btn btn-inverse disabled" href="#">install &raquo;</a>
+                                        <a class="btn btn-success disabled" href="#">test online &raquo;</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="span11">
+                        <ul class="thumbnails">
+                            <li class="span6" style="background-color: #eee">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <h3>project euler #1</h3>
+                                        <p>add all the natural numbers below one thousand that are multiples of 3 or 5
+                                            <strong>(coming soon)</strong>
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-inverse disabled" href="#">install &raquo;</a>
+                                            <a class="btn btn-success disabled" href="#">test online &raquo;</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="span6" style="background-color: #eee">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <h3>project euler #2</h3>
+                                        <p>by considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms
+                                            <strong>(coming soon)</strong>
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-inverse disabled" href="#">install &raquo;</a>
+                                            <a class="btn btn-success disabled" href="#">test online &raquo;</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END CONTENT -->
+                    
+                    
