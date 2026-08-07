@@ -8,7 +8,7 @@ The longest run: 10 years on a multi-tenant SaaS platform for the California Com
 
 Before that: contract work for Bublish, Trekkel, Golightly, and the Simon Wiesenthal Center. Since then: AI model evaluation and task design for LLM training at Sepal AI, where I was one of two Occupational Reviewers on the Web Developer domain.
 
-**Stack:** Python, PHP, JavaScript/TypeScript, Vue, Laravel, PostgreSQL, MySQL, AWS, Docker, Jenkins.
+**Stack:** JavaScript, Vue, PHP, Python, Laravel, PostgreSQL, MySQL, AWS, Docker, and Jenkins.
 
 **How I work:** I reproduce the problem before touching code. I write tests. I read the surrounding codebase before adding to it. Done means deployed and verified in production.
 
